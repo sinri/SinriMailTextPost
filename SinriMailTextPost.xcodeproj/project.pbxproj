@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F52519322CC433E002A6BF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52519222CC433E002A6BF6 /* AppDelegate.m */; };
+		2F52519622CC433E002A6BF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52519522CC433E002A6BF6 /* ViewController.m */; };
+		2F52519822CC4340002A6BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F52519722CC4340002A6BF6 /* Assets.xcassets */; };
+		2F52519B22CC4340002A6BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F52519922CC4340002A6BF6 /* Main.storyboard */; };
+		2F52519E22CC4340002A6BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52519D22CC4340002A6BF6 /* main.m */; };
+		2F5251A922CC4340002A6BF6 /* SinriMailTextPostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251A822CC4340002A6BF6 /* SinriMailTextPostTests.m */; };
+		2F5251B422CC4340002A6BF6 /* SinriMailTextPostUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251B322CC4340002A6BF6 /* SinriMailTextPostUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F5251A522CC4340002A6BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F52518622CC433E002A6BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F52518D22CC433E002A6BF6;
+			remoteInfo = SinriMailTextPost;
+		};
+		2F5251B022CC4340002A6BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F52518622CC433E002A6BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F52518D22CC433E002A6BF6;
+			remoteInfo = SinriMailTextPost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F52518E22CC433E002A6BF6 /* SinriMailTextPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinriMailTextPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F52519122CC433E002A6BF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F52519222CC433E002A6BF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F52519422CC433E002A6BF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F52519522CC433E002A6BF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F52519722CC4340002A6BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F52519A22CC4340002A6BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F52519C22CC4340002A6BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F52519D22CC4340002A6BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F52519F22CC4340002A6BF6 /* SinriMailTextPost.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SinriMailTextPost.entitlements; sourceTree = "<group>"; };
+		2F5251A422CC4340002A6BF6 /* SinriMailTextPostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinriMailTextPostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5251A822CC4340002A6BF6 /* SinriMailTextPostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinriMailTextPostTests.m; sourceTree = "<group>"; };
+		2F5251AA22CC4340002A6BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5251AF22CC4340002A6BF6 /* SinriMailTextPostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinriMailTextPostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5251B322CC4340002A6BF6 /* SinriMailTextPostUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinriMailTextPostUITests.m; sourceTree = "<group>"; };
+		2F5251B522CC4340002A6BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F52518B22CC433E002A6BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5251A122CC4340002A6BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5251AC22CC4340002A6BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F52518522CC433E002A6BF6 = {
+			isa = PBXGroup;
+			children = (
+				2F52519022CC433E002A6BF6 /* SinriMailTextPost */,
+				2F5251A722CC4340002A6BF6 /* SinriMailTextPostTests */,
+				2F5251B222CC4340002A6BF6 /* SinriMailTextPostUITests */,
+				2F52518F22CC433E002A6BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F52518F22CC433E002A6BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F52518E22CC433E002A6BF6 /* SinriMailTextPost.app */,
+				2F5251A422CC4340002A6BF6 /* SinriMailTextPostTests.xctest */,
+				2F5251AF22CC4340002A6BF6 /* SinriMailTextPostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F52519022CC433E002A6BF6 /* SinriMailTextPost */ = {
+			isa = PBXGroup;
+			children = (
+				2F52519122CC433E002A6BF6 /* AppDelegate.h */,
+				2F52519222CC433E002A6BF6 /* AppDelegate.m */,
+				2F52519422CC433E002A6BF6 /* ViewController.h */,
+				2F52519522CC433E002A6BF6 /* ViewController.m */,
+				2F52519722CC4340002A6BF6 /* Assets.xcassets */,
+				2F52519922CC4340002A6BF6 /* Main.storyboard */,
+				2F52519C22CC4340002A6BF6 /* Info.plist */,
+				2F52519D22CC4340002A6BF6 /* main.m */,
+				2F52519F22CC4340002A6BF6 /* SinriMailTextPost.entitlements */,
+			);
+			path = SinriMailTextPost;
+			sourceTree = "<group>";
+		};
+		2F5251A722CC4340002A6BF6 /* SinriMailTextPostTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F5251A822CC4340002A6BF6 /* SinriMailTextPostTests.m */,
+				2F5251AA22CC4340002A6BF6 /* Info.plist */,
+			);
+			path = SinriMailTextPostTests;
+			sourceTree = "<group>";
+		};
+		2F5251B222CC4340002A6BF6 /* SinriMailTextPostUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F5251B322CC4340002A6BF6 /* SinriMailTextPostUITests.m */,
+				2F5251B522CC4340002A6BF6 /* Info.plist */,
+			);
+			path = SinriMailTextPostUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F52518D22CC433E002A6BF6 /* SinriMailTextPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5251B822CC4340002A6BF6 /* Build configuration list for PBXNativeTarget "SinriMailTextPost" */;
+			buildPhases = (
+				2F52518A22CC433E002A6BF6 /* Sources */,
+				2F52518B22CC433E002A6BF6 /* Frameworks */,
+				2F52518C22CC433E002A6BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinriMailTextPost;
+			productName = SinriMailTextPost;
+			productReference = 2F52518E22CC433E002A6BF6 /* SinriMailTextPost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F5251A322CC4340002A6BF6 /* SinriMailTextPostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5251BB22CC4340002A6BF6 /* Build configuration list for PBXNativeTarget "SinriMailTextPostTests" */;
+			buildPhases = (
+				2F5251A022CC4340002A6BF6 /* Sources */,
+				2F5251A122CC4340002A6BF6 /* Frameworks */,
+				2F5251A222CC4340002A6BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5251A622CC4340002A6BF6 /* PBXTargetDependency */,
+			);
+			name = SinriMailTextPostTests;
+			productName = SinriMailTextPostTests;
+			productReference = 2F5251A422CC4340002A6BF6 /* SinriMailTextPostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F5251AE22CC4340002A6BF6 /* SinriMailTextPostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5251BE22CC4340002A6BF6 /* Build configuration list for PBXNativeTarget "SinriMailTextPostUITests" */;
+			buildPhases = (
+				2F5251AB22CC4340002A6BF6 /* Sources */,
+				2F5251AC22CC4340002A6BF6 /* Frameworks */,
+				2F5251AD22CC4340002A6BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5251B122CC4340002A6BF6 /* PBXTargetDependency */,
+			);
+			name = SinriMailTextPostUITests;
+			productName = SinriMailTextPostUITests;
+			productReference = 2F5251AF22CC4340002A6BF6 /* SinriMailTextPostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F52518622CC433E002A6BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sinri Edogawa";
+				TargetAttributes = {
+					2F52518D22CC433E002A6BF6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2F5251A322CC4340002A6BF6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F52518D22CC433E002A6BF6;
+					};
+					2F5251AE22CC4340002A6BF6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F52518D22CC433E002A6BF6;
+					};
+				};
+			};
+			buildConfigurationList = 2F52518922CC433E002A6BF6 /* Build configuration list for PBXProject "SinriMailTextPost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F52518522CC433E002A6BF6;
+			productRefGroup = 2F52518F22CC433E002A6BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F52518D22CC433E002A6BF6 /* SinriMailTextPost */,
+				2F5251A322CC4340002A6BF6 /* SinriMailTextPostTests */,
+				2F5251AE22CC4340002A6BF6 /* SinriMailTextPostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F52518C22CC433E002A6BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F52519822CC4340002A6BF6 /* Assets.xcassets in Resources */,
+				2F52519B22CC4340002A6BF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5251A222CC4340002A6BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5251AD22CC4340002A6BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F52518A22CC433E002A6BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F52519622CC433E002A6BF6 /* ViewController.m in Sources */,
+				2F52519E22CC4340002A6BF6 /* main.m in Sources */,
+				2F52519322CC433E002A6BF6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5251A022CC4340002A6BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5251A922CC4340002A6BF6 /* SinriMailTextPostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5251AB22CC4340002A6BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5251B422CC4340002A6BF6 /* SinriMailTextPostUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F5251A622CC4340002A6BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F52518D22CC433E002A6BF6 /* SinriMailTextPost */;
+			targetProxy = 2F5251A522CC4340002A6BF6 /* PBXContainerItemProxy */;
+		};
+		2F5251B122CC4340002A6BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F52518D22CC433E002A6BF6 /* SinriMailTextPost */;
+			targetProxy = 2F5251B022CC4340002A6BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F52519922CC4340002A6BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F52519A22CC4340002A6BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F5251B622CC4340002A6BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2F5251B722CC4340002A6BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F5251B922CC4340002A6BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SinriMailTextPost/SinriMailTextPost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LW2C2PTSH8;
+				INFOPLIST_FILE = SinriMailTextPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinri.SinriMailTextPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F5251BA22CC4340002A6BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SinriMailTextPost/SinriMailTextPost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LW2C2PTSH8;
+				INFOPLIST_FILE = SinriMailTextPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinri.SinriMailTextPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F5251BC22CC4340002A6BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LW2C2PTSH8;
+				INFOPLIST_FILE = SinriMailTextPostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinri.SinriMailTextPostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinriMailTextPost.app/Contents/MacOS/SinriMailTextPost";
+			};
+			name = Debug;
+		};
+		2F5251BD22CC4340002A6BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LW2C2PTSH8;
+				INFOPLIST_FILE = SinriMailTextPostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinri.SinriMailTextPostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinriMailTextPost.app/Contents/MacOS/SinriMailTextPost";
+			};
+			name = Release;
+		};
+		2F5251BF22CC4340002A6BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LW2C2PTSH8;
+				INFOPLIST_FILE = SinriMailTextPostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinri.SinriMailTextPostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinriMailTextPost;
+			};
+			name = Debug;
+		};
+		2F5251C022CC4340002A6BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LW2C2PTSH8;
+				INFOPLIST_FILE = SinriMailTextPostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinri.SinriMailTextPostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinriMailTextPost;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F52518922CC433E002A6BF6 /* Build configuration list for PBXProject "SinriMailTextPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5251B622CC4340002A6BF6 /* Debug */,
+				2F5251B722CC4340002A6BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5251B822CC4340002A6BF6 /* Build configuration list for PBXNativeTarget "SinriMailTextPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5251B922CC4340002A6BF6 /* Debug */,
+				2F5251BA22CC4340002A6BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5251BB22CC4340002A6BF6 /* Build configuration list for PBXNativeTarget "SinriMailTextPostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5251BC22CC4340002A6BF6 /* Debug */,
+				2F5251BD22CC4340002A6BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5251BE22CC4340002A6BF6 /* Build configuration list for PBXNativeTarget "SinriMailTextPostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5251BF22CC4340002A6BF6 /* Debug */,
+				2F5251C022CC4340002A6BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F52518622CC433E002A6BF6 /* Project object */;
+}
