@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MyUIToolkit.h"
 
 @interface AppDelegate ()
 
@@ -23,5 +24,11 @@
     // Insert code here to tear down your application
 }
 
-
+    -(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender{
+        return true;
+    }
+- (IBAction)openAboutWindow:(id)sender {
+    [MyUIToolkit showModelErrorAlertWithTitle:@"About Sinri Mail Tex Post v1.0" andContent:@"Long Live Sinri!"];
+}
+    
 @end

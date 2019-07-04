@@ -14,6 +14,12 @@
 		2F52519E22CC4340002A6BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52519D22CC4340002A6BF6 /* main.m */; };
 		2F5251A922CC4340002A6BF6 /* SinriMailTextPostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251A822CC4340002A6BF6 /* SinriMailTextPostTests.m */; };
 		2F5251B422CC4340002A6BF6 /* SinriMailTextPostUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251B322CC4340002A6BF6 /* SinriMailTextPostUITests.m */; };
+		2F5251D122CC4AFC002A6BF6 /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5251C822CC4962002A6BF6 /* libcurl.tbd */; };
+		2F5251D522CC4B3B002A6BF6 /* SMTPAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251D422CC4B3B002A6BF6 /* SMTPAttachment.m */; };
+		2F5251D822CC4B5C002A6BF6 /* SMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251D722CC4B5C002A6BF6 /* SMTPMessage.m */; };
+		2F5251DC22CC706F002A6BF6 /* LocalSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251DB22CC706F002A6BF6 /* LocalSettings.m */; };
+		2F5251DF22CC7D20002A6BF6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251DE22CC7D20002A6BF6 /* SettingsViewController.m */; };
+		2F5251E222CCB1AD002A6BF6 /* MyUIToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251E122CCB1AD002A6BF6 /* MyUIToolkit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,18 @@
 		2F5251AF22CC4340002A6BF6 /* SinriMailTextPostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinriMailTextPostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5251B322CC4340002A6BF6 /* SinriMailTextPostUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinriMailTextPostUITests.m; sourceTree = "<group>"; };
 		2F5251B522CC4340002A6BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5251C822CC4962002A6BF6 /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
+		2F5251CE22CC4A7C002A6BF6 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = SinriMailTextPost/curl/libcurl.a; sourceTree = "<group>"; };
+		2F5251D322CC4B3B002A6BF6 /* SMTPAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTPAttachment.h; sourceTree = "<group>"; };
+		2F5251D422CC4B3B002A6BF6 /* SMTPAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMTPAttachment.m; sourceTree = "<group>"; };
+		2F5251D622CC4B5C002A6BF6 /* SMTPMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTPMessage.h; sourceTree = "<group>"; };
+		2F5251D722CC4B5C002A6BF6 /* SMTPMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMTPMessage.m; sourceTree = "<group>"; };
+		2F5251DA22CC706F002A6BF6 /* LocalSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalSettings.h; sourceTree = "<group>"; };
+		2F5251DB22CC706F002A6BF6 /* LocalSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalSettings.m; sourceTree = "<group>"; };
+		2F5251DD22CC7D20002A6BF6 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2F5251DE22CC7D20002A6BF6 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		2F5251E022CCB1AD002A6BF6 /* MyUIToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUIToolkit.h; sourceTree = "<group>"; };
+		2F5251E122CCB1AD002A6BF6 /* MyUIToolkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUIToolkit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5251D122CC4AFC002A6BF6 /* libcurl.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +103,7 @@
 				2F5251A722CC4340002A6BF6 /* SinriMailTextPostTests */,
 				2F5251B222CC4340002A6BF6 /* SinriMailTextPostUITests */,
 				2F52518F22CC433E002A6BF6 /* Products */,
+				2F5251C722CC4962002A6BF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +120,8 @@
 		2F52519022CC433E002A6BF6 /* SinriMailTextPost */ = {
 			isa = PBXGroup;
 			children = (
+				2F5251D922CC7050002A6BF6 /* settings */,
+				2F5251D222CC4B02002A6BF6 /* smtp */,
 				2F52519122CC433E002A6BF6 /* AppDelegate.h */,
 				2F52519222CC433E002A6BF6 /* AppDelegate.m */,
 				2F52519422CC433E002A6BF6 /* ViewController.h */,
@@ -109,6 +131,10 @@
 				2F52519C22CC4340002A6BF6 /* Info.plist */,
 				2F52519D22CC4340002A6BF6 /* main.m */,
 				2F52519F22CC4340002A6BF6 /* SinriMailTextPost.entitlements */,
+				2F5251DD22CC7D20002A6BF6 /* SettingsViewController.h */,
+				2F5251DE22CC7D20002A6BF6 /* SettingsViewController.m */,
+				2F5251E022CCB1AD002A6BF6 /* MyUIToolkit.h */,
+				2F5251E122CCB1AD002A6BF6 /* MyUIToolkit.m */,
 			);
 			path = SinriMailTextPost;
 			sourceTree = "<group>";
@@ -129,6 +155,35 @@
 				2F5251B522CC4340002A6BF6 /* Info.plist */,
 			);
 			path = SinriMailTextPostUITests;
+			sourceTree = "<group>";
+		};
+		2F5251C722CC4962002A6BF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F5251CE22CC4A7C002A6BF6 /* libcurl.a */,
+				2F5251C822CC4962002A6BF6 /* libcurl.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F5251D222CC4B02002A6BF6 /* smtp */ = {
+			isa = PBXGroup;
+			children = (
+				2F5251D322CC4B3B002A6BF6 /* SMTPAttachment.h */,
+				2F5251D422CC4B3B002A6BF6 /* SMTPAttachment.m */,
+				2F5251D622CC4B5C002A6BF6 /* SMTPMessage.h */,
+				2F5251D722CC4B5C002A6BF6 /* SMTPMessage.m */,
+			);
+			path = smtp;
+			sourceTree = "<group>";
+		};
+		2F5251D922CC7050002A6BF6 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				2F5251DA22CC706F002A6BF6 /* LocalSettings.h */,
+				2F5251DB22CC706F002A6BF6 /* LocalSettings.m */,
+			);
+			path = settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +253,11 @@
 				TargetAttributes = {
 					2F52518D22CC433E002A6BF6 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					2F5251A322CC4340002A6BF6 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -260,9 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5251D522CC4B3B002A6BF6 /* SMTPAttachment.m in Sources */,
 				2F52519622CC433E002A6BF6 /* ViewController.m in Sources */,
+				2F5251E222CCB1AD002A6BF6 /* MyUIToolkit.m in Sources */,
+				2F5251D822CC4B5C002A6BF6 /* SMTPMessage.m in Sources */,
 				2F52519E22CC4340002A6BF6 /* main.m in Sources */,
+				2F5251DC22CC706F002A6BF6 /* LocalSettings.m in Sources */,
 				2F52519322CC433E002A6BF6 /* AppDelegate.m in Sources */,
+				2F5251DF22CC7D20002A6BF6 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +493,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LW2C2PTSH8;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SinriMailTextPost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinri.SinriMailTextPost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -446,11 +514,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LW2C2PTSH8;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SinriMailTextPost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinri.SinriMailTextPost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
