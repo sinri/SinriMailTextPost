@@ -20,6 +20,7 @@
 		2F5251DC22CC706F002A6BF6 /* LocalSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251DB22CC706F002A6BF6 /* LocalSettings.m */; };
 		2F5251DF22CC7D20002A6BF6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251DE22CC7D20002A6BF6 /* SettingsViewController.m */; };
 		2F5251E222CCB1AD002A6BF6 /* MyUIToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5251E122CCB1AD002A6BF6 /* MyUIToolkit.m */; };
+		2F5251E522CEDD8E002A6BF6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F5251E422CEDD8E002A6BF6 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		2F5251DE22CC7D20002A6BF6 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		2F5251E022CCB1AD002A6BF6 /* MyUIToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUIToolkit.h; sourceTree = "<group>"; };
 		2F5251E122CCB1AD002A6BF6 /* MyUIToolkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUIToolkit.m; sourceTree = "<group>"; };
+		2F5251E422CEDD8E002A6BF6 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		2F5251E622CEE5DA002A6BF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 		2F52518522CC433E002A6BF6 = {
 			isa = PBXGroup;
 			children = (
+				2F5251E622CEE5DA002A6BF6 /* README.md */,
+				2F5251E322CEDD66002A6BF6 /* docs */,
 				2F52519022CC433E002A6BF6 /* SinriMailTextPost */,
 				2F5251A722CC4340002A6BF6 /* SinriMailTextPostTests */,
 				2F5251B222CC4340002A6BF6 /* SinriMailTextPostUITests */,
@@ -184,6 +189,14 @@
 				2F5251DB22CC706F002A6BF6 /* LocalSettings.m */,
 			);
 			path = settings;
+			sourceTree = "<group>";
+		};
+		2F5251E322CEDD66002A6BF6 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				2F5251E422CEDD8E002A6BF6 /* index.html */,
+			);
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5251E522CEDD8E002A6BF6 /* index.html in Resources */,
 				2F52519822CC4340002A6BF6 /* Assets.xcassets in Resources */,
 				2F52519B22CC4340002A6BF6 /* Main.storyboard in Resources */,
 			);
